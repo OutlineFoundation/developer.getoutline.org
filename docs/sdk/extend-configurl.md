@@ -25,7 +25,7 @@ The library provides two dialers and their configuration types:
 | `timeout:t=1s&error=too+slow` | Allow up to one second to open a connection, returning `too slow` if the timeout expires. |
 
 The delay takes a single duration; the timeout takes `key=value` options. You
-need basic Go knowledge and [Go 1.24.1 or later](https://go.dev/doc/install).
+need basic Go knowledge and [Go 1.25 or later](https://go.dev/doc/install).
 The example connects to a local TCP listener, so no Outline server or access key
 is required.
 
