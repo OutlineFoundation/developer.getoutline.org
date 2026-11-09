@@ -70,24 +70,20 @@ character describes composition, not a choice between strategies.
 
 ## Step 1: Create a Go module
 
-<!-- RELEASE BLOCKER: Before merging, replace the pseudo-version below with a
-released x module version containing OutlineFoundation/outline-sdk#647, then
-rerun the examples and verify the Go doc links. -->
-
 Run these commands in a terminal:
 
 ```sh
 mkdir configurl-example
 cd configurl-example
 go mod init example.com/configurl-example
-go get golang.getoutline.org/sdk/x/configurl@v0.2.3-0.20261030210620-71f60768ef4c
+go get golang.getoutline.org/sdk/x/configurl@latest
 mkdir components
 ```
 
-This guide pins a version of the SDK's `x` module. Its APIs are experimental,
-so keep the version pinned when using them. Use the `golang.getoutline.org`
-import paths shown here, including for the core `transport` package; older
-examples may use GitHub import paths.
+`go get` records the latest version of the SDK's `x` module in `go.mod`. The
+`x` APIs are experimental and can change between releases. Use the
+`golang.getoutline.org` import paths shown here, including for the core
+`transport` package; older examples may use GitHub import paths.
 
 For a runnable example, the library and app live in one module, with the library
 in a separate Go package. Keep each component in its own file:
