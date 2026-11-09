@@ -67,17 +67,13 @@ construction only and is cancelled when the search ends.
 
 In your `configurl-example` directory, run:
 
-<!-- RELEASE BLOCKER: Before merging, replace the pseudo-version below with a
-released x module version containing OutlineFoundation/outline-sdk#649, then
-rerun the examples and verify the Go doc links. -->
-
 ```sh
-go get golang.getoutline.org/sdk/x@v0.2.3-0.20261106052654-c60acdb5f6f7
+go get golang.getoutline.org/sdk/x@latest
 mkdir mobilecomponents smartdialer
 ```
 
-This pins a version of the `x` module that includes the Smart Dialer
-registration APIs. You will add three Go files and two configs:
+This updates the `x` module to its latest version, which includes the Smart
+Dialer registration APIs. You will add three Go files and two configs:
 
 ```text
 configurl-example/
