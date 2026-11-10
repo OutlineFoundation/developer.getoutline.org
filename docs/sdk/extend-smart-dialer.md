@@ -15,6 +15,18 @@ make your own components available to it in two ways:
 - **Fallback types** read structured YAML under their own key in the
   `fallback` list. The SDK's optional Psiphon fallback works this way.
 
+This guide's worked example is `paced`, a fallback type written for this
+tutorial. A `paced` entry names a transport as a config URL, waits a set delay
+before each connection, and gives up on connections that take too long. It
+packages the `delay` and `timeout` components from Adding Custom Components as
+one fallback with named, validated options, so whoever writes the config sets
+`delay: 100ms` instead of assembling a longer config URL. It's small enough to
+read in one file, yet it shows what a production fallback type does: it reads
+and validates structured YAML, builds a nested config URL that can include your
+custom types, and wraps the result in your own Go code. A production fallback,
+such as Psiphon, is registered and configured the same way but starts a tunnel
+instead.
+
 Start from the module you built in Adding Custom Components. You will run the
 Smart Dialer from a Go program, then expose the same registrations to Android
 and iOS apps with [Go Mobile](https://go.dev/wiki/Mobile). The examples need
