@@ -89,7 +89,7 @@ tcp:
 
 - Каждый протокол задается строкой, определяющей используемую технологию.
 
-- Например, `override:host=cloudflare.net|tlsfrag:1` обозначает протокол, использующий доменное прикрытие с Cloudflare и фрагментацию TLS. Подробная информация приведена в [документации по конфигурации](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format).
+- Например, `override:host=cloudflare.net|tlsfrag:1` обозначает протокол, использующий доменное прикрытие с Cloudflare и фрагментацию TLS. Подробная информация приведена в [документации по конфигурации](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format).
 
 ### Резервная конфигурация {#fallback_configuration}
 

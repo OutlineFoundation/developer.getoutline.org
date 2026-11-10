@@ -89,7 +89,7 @@ tcp:
 
 - 각 TLS 전송은 사용하려는 전송을 지정하는 문자열입니다.
 
-- 예를 들어, `override:host=cloudflare.net|tlsfrag:1`은 Cloudflare 및 TLS 단편화를 통해 도메인 프론팅을 사용하는 전송을 지정합니다. 자세한 내용은 [구성 문서](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format)를 참고하세요.
+- 예를 들어, `override:host=cloudflare.net|tlsfrag:1`은 Cloudflare 및 TLS 단편화를 통해 도메인 프론팅을 사용하는 전송을 지정합니다. 자세한 내용은 [구성 문서](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format)를 참고하세요.
 
 ### 대체 구성 {#fallback_configuration}
 

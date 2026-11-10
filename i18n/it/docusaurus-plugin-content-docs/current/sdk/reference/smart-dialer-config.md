@@ -89,7 +89,7 @@ tcp:
 
 - Ogni trasporto TLS è una stringa che specifica il trasporto da utilizzare.
 
-- Ad esempio, `override:host=cloudflare.net|tlsfrag:1` specifica un trasporto che usa il domain fronting con Cloudflare e la frammentazione TLS. Vedi la [documentazione sulla configurazione](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format) per maggiori dettagli.
+- Ad esempio, `override:host=cloudflare.net|tlsfrag:1` specifica un trasporto che usa il domain fronting con Cloudflare e la frammentazione TLS. Vedi la [documentazione sulla configurazione](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format) per maggiori dettagli.
 
 ### Configurazione di fallback {#fallback_configuration}
 

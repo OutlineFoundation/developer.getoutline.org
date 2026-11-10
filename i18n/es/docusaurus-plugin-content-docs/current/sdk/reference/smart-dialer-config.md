@@ -89,7 +89,7 @@ tcp:
 
 - Cada transporte TLS es una cadena que especifica qué transporte se debe usar.
 
-- Por ejemplo, `override:host=cloudflare.net|tlsfrag:1` especifica un transporte que usa ocultación de dominios con Cloudflare y fragmentación de TLS. Para obtener más información, consulta la [documentación sobre la configuración](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format).
+- Por ejemplo, `override:host=cloudflare.net|tlsfrag:1` especifica un transporte que usa ocultación de dominios con Cloudflare y fragmentación de TLS. Para obtener más información, consulta la [documentación sobre la configuración](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format).
 
 ### Configuración de respaldo {#fallback_configuration}
 

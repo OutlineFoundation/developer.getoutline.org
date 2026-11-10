@@ -89,7 +89,7 @@ tcp:
 
 - Każdy transport TLS jest ciągiem tekstowym określającym transport, który ma być używany.
 
-- Na przykład `override:host=cloudflare.net|tlsfrag:1` określa transport, który używa frontowania domen razem z Cloudflare i fragmentacją TLS. Szczegóły znajdziesz w [dokumentacji konfiguracji](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format).
+- Na przykład `override:host=cloudflare.net|tlsfrag:1` określa transport, który używa frontowania domen razem z Cloudflare i fragmentacją TLS. Szczegóły znajdziesz w [dokumentacji konfiguracji](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format).
 
 ### Konfiguracja zastępcza {#fallback_configuration}
 

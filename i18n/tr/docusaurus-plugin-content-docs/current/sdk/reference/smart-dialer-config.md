@@ -89,7 +89,7 @@ tcp:
 
 - Her bir TLS aracı, kullanılacak aracı belirten bir dizedir.
 
-- Örneğin `override:host=cloudflare.net|tlsfrag:1`, Cloudflare ve TLS parçasıyla alan adı ön yüzünü değiştirme işlemini kullanan bir araç belirtir. Ayrıntılar için [yapılandırma belgelerine](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format) bakın.
+- Örneğin `override:host=cloudflare.net|tlsfrag:1`, Cloudflare ve TLS parçasıyla alan adı ön yüzünü değiştirme işlemini kullanan bir araç belirtir. Ayrıntılar için [yapılandırma belgelerine](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format) bakın.
 
 ### Yedek Yapılandırma {#fallback_configuration}
 
