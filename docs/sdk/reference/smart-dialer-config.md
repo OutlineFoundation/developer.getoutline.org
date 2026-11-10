@@ -85,7 +85,7 @@ tcp:
 *   Each TLS transport is a string that specifies the transport to use.
 *   For example, `override:host=cloudflare.net|tlsfrag:1` specifies a transport
     that uses domain fronting with Cloudflare and TLS fragmentation. See the
-    [config documentation](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format)
+    [config documentation](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format)
     for details.
 
 ### Fallback Configuration

@@ -90,7 +90,7 @@ tcp:
 - การรับส่งข้อมูล TLS แต่ละรายการคือสตริงที่ระบุการรับส่งข้อมูลที่จะใช้
 
 - เช่น `override:host=cloudflare.net|tlsfrag:1` จะระบุการรับส่งข้อมูลที่ใช้การทำ Domain Fronting ด้วย Cloudflare และการกระจาย Fragment ของ TLS ดูรายละเอียดได้จาก
-[เอกสารประกอบการกำหนดค่า](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format)
+[เอกสารประกอบการกำหนดค่า](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format)
 
 ### การกำหนดค่าสำรอง {#fallback_configuration}
 

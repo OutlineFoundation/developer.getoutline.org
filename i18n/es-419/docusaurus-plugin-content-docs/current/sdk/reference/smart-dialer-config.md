@@ -93,7 +93,7 @@ tcp:
 
 - Por ejemplo, `override:host=cloudflare.net|tlsfrag:1` especifica un transporte
 que utiliza el fronting del dominio con Cloudflare y fragmentación de TLS. Consulta la
-[documentación de configuración](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format)
+[documentación de configuración](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format)
 para conocer más detalles.
 
 ### Configuración de resguardo {#fallback_configuration}

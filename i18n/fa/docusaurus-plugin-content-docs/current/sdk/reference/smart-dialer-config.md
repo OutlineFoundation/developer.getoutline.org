@@ -93,7 +93,7 @@ tcp:
 
 - برای نمونه، `override:host=cloudflare.net|tlsfrag:1` حمل‌ونقلی را معین می‌کند که
 از دامنه‌ای استفاده می‌کند که خط مقدم آن تکه‌تکه‌سازی «امنیت لایه انتقال» و Cloudflare است. برای جزئیات بیشتر،
-[مستندسازی پیکربندی](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format)
+[مستندسازی پیکربندی](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format)
 را ببینید.
 
 ### پیکربندی جایگزین {#fallback_configuration}

@@ -93,7 +93,7 @@ tcp:
 
 - على سبيل المثال، يحدّد `override:host=cloudflare.net|tlsfrag:1` أسلوب النقل
 الذي يستخدِم التخفي عبر النطاقات مع Cloudflare وتقسيم بروتوكول TLS. ولمزيد من التفاصيل، يمكنك الاطّلاع على
-[مستند الإعدادات](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format).
+[مستند الإعدادات](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format).
 
 ### الإعدادات الاحتياطية {#fallback_configuration}
 

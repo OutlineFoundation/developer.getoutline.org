@@ -89,7 +89,7 @@ tcp:
 
 - Elk TLS-transport is een tekenreeks die aangeeft welk transport moet worden gebruikt.
 
-- `override:host=cloudflare.net|tlsfrag:1` geeft bijvoorbeeld een transport aan dat domain fronting gebruikt met Cloudflare en TLS-fragmentatie. In de [configuratiedocumentatie](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Config_Format) vind je meer informatie.
+- `override:host=cloudflare.net|tlsfrag:1` geeft bijvoorbeeld een transport aan dat domain fronting gebruikt met Cloudflare en TLS-fragmentatie. In de [configuratiedocumentatie](https://pkg.go.dev/golang.getoutline.org/sdk/x/configurl#hdr-Configuration_Format) vind je meer informatie.
 
 ### Reserveconfiguratie {#fallback_configuration}
 
